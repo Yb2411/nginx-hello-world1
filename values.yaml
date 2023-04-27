@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: yb2411/pythonweb
   pullPolicy: IfNotPresent
   tag: "latest"
 
@@ -13,7 +13,7 @@ resources: {}
 
 config:
   index.html: |
-    <!DOCTYPE html>
+    "<!DOCTYPE html>
     <html>
     <head>
     <title>Hello World</title>
@@ -21,4 +21,4 @@ config:
     <body>
     <h1>Hello World!</h1>
     </body>
-    </html>
+    </html>"
