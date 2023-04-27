@@ -12,7 +12,7 @@ service:
 resources: {}
 
 config:
-  index.html: |-
+  index.html: |
     <!DOCTYPE html>
     <html>
     <head>

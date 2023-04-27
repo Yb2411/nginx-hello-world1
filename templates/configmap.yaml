@@ -5,4 +5,4 @@ metadata:
   labels:
     {{- include "nginx-hello-world.labels" . | nindent 4 }}
 data:
-  index.html: {{ .Values.config.index.html | quote }}
+  index.html: {{ .Values.config.index.html }}
