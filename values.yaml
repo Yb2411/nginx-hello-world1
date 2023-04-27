@@ -1,0 +1,24 @@
+replicaCount: 1
+
+image:
+  repository: nginx
+  pullPolicy: IfNotPresent
+  tag: "latest"
+
+service:
+  type: ClusterIP
+  port: 80
+
+resources: {}
+
+config:
+  index.html: |-
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>Hello World</title>
+    </head>
+    <body>
+    <h1>Hello World!</h1>
+    </body>
+    </html>
