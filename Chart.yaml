@@ -1,0 +1,4 @@
+apiVersion: v2
+name: nginx-hello-world
+description: A Helm chart for deploying a simple Nginx "Hello World" application
+version: 0.1.0
