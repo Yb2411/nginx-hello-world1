@@ -1,8 +1,9 @@
 replicaCount: 1
 
 image:
-  repository: yb2411/pythonweb:92279895fa7e8953b9b3e2395763cfd81678e35d
+  repository: yb2411/pythonweb
   pullPolicy: IfNotPresent
+  tag: 92279895fa7e8953b9b3e2395763cfd81678e35d
 
 service:
   type: ClusterIP
